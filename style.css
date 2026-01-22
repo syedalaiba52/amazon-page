@@ -7,7 +7,7 @@
 }
 
 .clr-blue {
-  color:#007185;
+  color: #007185;
   cursor: pointer;
 }
 
@@ -242,10 +242,9 @@ span {
 
 /* hero section */
 .hero-section {
-  /* background-image: url("images/heroImage.jpg"); */
   background-image: url("images/hero_image.jpg");
   background-size: cover;
-  height: 70vh;
+  height: clamp(250px, 70vh, 900px);
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -268,6 +267,13 @@ span {
   width: 97%;
   margin-bottom: 25px;
   text-align: center;
+}
+
+.hero-img {
+  width: 100%;
+  height: clamp(250px, 70vh, 900px);
+  object-fit: cover;
+  display: block;
 }
 
 /* shop section */

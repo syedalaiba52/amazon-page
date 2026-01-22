@@ -1,11 +1,13 @@
 /* 1440 */
 @media screen and (max-width: 1440px) {
-  .nav-cart {
-    display: none;
-  }
-
   .hero-section {
     background-position: center center;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .nav-cart {
+    display: none;
   }
 }
 
@@ -20,6 +22,20 @@
 @media screen and (max-width: 1035px) {
   .nav-signin {
     display: none;
+  }
+}
+
+/* 900 */
+@media (max-width: 900px) {
+  .hero-section {
+    height: clamp(200px, 50vh, 600px);
+    background-position: center top;
+  }
+
+  .hero-msg {
+    width: 95%;
+    margin-bottom: 18px;
+    font-size: 0.85rem;
   }
 }
 
@@ -56,6 +72,21 @@
 @media screen and (max-width: 705px) {
   .panel-deals {
     display: none;
+  }
+}
+
+/* 600 */
+@media (max-width: 600px) {
+  .hero-section {
+    height: clamp(140px, 40vh, 420px);
+    background-position: center top;
+  }
+
+  .hero-msg {
+    width: 92%;
+    margin-bottom: 12px;
+    font-size: 0.8rem;
+    height: 36px;
   }
 }
 
